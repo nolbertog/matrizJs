@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Análisis de escritura rápida</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Análisis de escritura rápida</h1>
+
+    <label for="inputText">Escriba el siguiente texto:</label><br>
+    <textarea id="inputText"  cols="50" rows="5" readonly placeholder="Prepárate para escribir..."></textarea><br>
+
+    <label for="userInput">Tu mecanografía:</label><br>
+    <textarea id="userInput"  cols="50" rows="5" placeholder="Comience a escribir cuando esté listo"></textarea><br>
+    <button onclick="startTest()">Start Test</button>
+        <button onclick="endTest()" id="btn">End Test</button>
+    <div id="output"></div>
+    <script src="./speed_analysis.js"></script>
+</body>
+</html>
